@@ -10,6 +10,7 @@
 "
 "  string:                             #a8ff60  168:255:96
 "    string inner (punc, code, etc):   #00a0a0  0:160:160
+"    string Delimiter                  #4ba747  75:167:71
 "  number:                             #cf8688  207:134:136
 "  comments:                           #7c7c7c  124:124:124
 "  keywords:                           #96cbfe  150:203:254
@@ -149,7 +150,7 @@ hi rubyEscape                  guifg=white        guibg=NONE      gui=NONE      
 hi rubyInterpolationDelimiter  guifg=#00A0A0      guibg=NONE      gui=NONE      ctermfg=blue           ctermbg=NONE      cterm=NONE
 hi rubyControl                 guifg=#6699CC      guibg=NONE      gui=NONE      ctermfg=blue           ctermbg=NONE      cterm=NONE  "and break, etc
 "hi rubyGlobalVariable          guifg=#FFCCFF      guibg=NONE      gui=NONE      ctermfg=lightblue      ctermbg=NONE      cterm=NONE  "yield
-hi rubyStringDelimiter         guifg=#336633      guibg=NONE      gui=NONE      ctermfg=lightgreen     ctermbg=NONE      cterm=NONE
+hi rubyStringDelimiter         guifg=#4ba747      guibg=NONE      gui=NONE      ctermfg=lightgreen     ctermbg=NONE      cterm=NONE
 "rubyInclude
 "rubySharpBang
 "rubyAccess
