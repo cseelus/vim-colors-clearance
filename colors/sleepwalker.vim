@@ -34,9 +34,9 @@
 "  background color:                   #000
 "  cursor (where underscore is used):  #ffa560  255:165:96
 "  cursor (where block is used):       #fff
-"  visual selection:                   #1d1e2c
+"  visual selection:                   #e0d689  224:214:137
 "  current line:                       #151515  21:21:21
-"  search selection:                   #07281c  7:40:28
+"  search selection:                   #e0d689  224:214:137
 "  line number:                        #3d3d3d  61:61:61
 
 
