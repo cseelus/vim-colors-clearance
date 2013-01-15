@@ -1,5 +1,6 @@
 " sleepwalker color scheme
 " by @cseelus and based on ir_black
+" https://github.com/cseelus/sleepwalker-vim
 
 
 " ****************************************************************************
