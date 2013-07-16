@@ -42,7 +42,7 @@
 
 
 " ****************************************************************************
-" The following are the preferred 16 colors for your terminal
+" The following are the preferred 16 colors for the terminal
 "               Colors      Bright Colors
 " Black         #4e4e4e     #7c7c7c
 " Red           #ff6c60     #ffb6b0
