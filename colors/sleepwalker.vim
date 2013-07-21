@@ -36,7 +36,7 @@
 "  cursor (where underscore is used):  #ffa560  255:165:96
 "  cursor (where block is used):       #fff
 "  visual selection:                   #e0d689  224:214:137
-"  current line:                       #151515  21:21:21
+"  current line:                       #0a0a0a  21:21:21
 "  search selection:                   #e0d689  224:214:137
 "  line number:                        #3d3d3d  61:61:61
 
@@ -68,11 +68,11 @@ let colors_name = "sleepwalker"
 "hi Example       guifg=NONE    guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE        cterm=NONE
 
 " General colors
-hi Normal         guifg=#f6f3e8 guibg=#151515 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi NonText        guifg=#070707 guibg=#151515 gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
+hi Normal         guifg=#f6f3e8 guibg=#0a0a0a gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi NonText        guifg=#070707 guibg=#0a0a0a gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
 
 hi Cursor         guifg=black   guibg=white   gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
-hi LineNr         guifg=#3D3D3D guibg=#151515 gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
+hi LineNr         guifg=#3D3D3D guibg=#0a0a0a gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
 
 hi VertSplit      guifg=#202020 guibg=#202020 gui=NONE      ctermfg=darkgray    ctermbg=darkgray    cterm=NONE
 hi StatusLine     guifg=#CCCCCC guibg=#202020 gui=italic    ctermfg=white       ctermbg=darkgray    cterm=NONE
@@ -86,7 +86,7 @@ hi SpecialKey     guifg=#808080 guibg=#343434 gui=NONE      ctermfg=NONE        
 
 hi WildMenu       guifg=green   guibg=yellow  gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 hi PmenuSbar      guifg=black   guibg=white   gui=NONE      ctermfg=black       ctermbg=white       cterm=NONE
-"hi Ignore        guifg=gray    guibg=#151515 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+"hi Ignore        guifg=gray    guibg=#0a0a0a gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 hi Error          guifg=NONE    guibg=NONE    gui=undercurl ctermfg=white       ctermbg=red         cterm=NONE     guisp=#FF6C60 " undercurl color
 hi ErrorMsg       guifg=white   guibg=#FF6C60 gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
@@ -97,6 +97,7 @@ hi ModeMsg        guifg=black   guibg=#C6C5FE gui=BOLD      ctermfg=black       
 
 if version >= 700 " Vim 7.x specific colors
   hi CursorLine   guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
+  hi CursorLineNR guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
   hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
   hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
   hi Pmenu        guifg=#f6f3e8 guibg=#444444 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
