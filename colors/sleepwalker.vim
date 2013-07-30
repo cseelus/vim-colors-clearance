@@ -9,7 +9,7 @@
 "
 "  normal: #f6f3e8
 "
-"  string:                             #a8ff60  168:255:96
+"  string:                             #b2ff4f  168:255:96
 "    string inner (punc, code, etc):   #00a0a0  0:160:160
 "    string Delimiter                  #4ba747  75:167:71
 "  number:                             #cf8688  207:134:136
@@ -46,7 +46,7 @@
 "               Colors      Bright Colors
 " Black         #4e4e4e     #7c7c7c
 " Red           #ff6c60     #ffb6b0
-" Green         #a8ff60     #ceffab
+" Green         #b2ff4f     #ceffab
 " Yellow        #ffffb6     #ffffcb
 " Blue          #96cbfe     #ffffcb
 " Burgundy      #cf8688     #e0787d
@@ -84,7 +84,7 @@ hi Visual         guifg=NONE    guibg=#e0d689 gui=NONE      ctermfg=NONE        
 
 hi SpecialKey     guifg=#808080 guibg=#343434 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
-hi WildMenu       guifg=green   guibg=yellow  gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
+hi WildMenu       guifg=#b2ff4f   guibg=yellow  gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 hi PmenuSbar      guifg=black   guibg=white   gui=NONE      ctermfg=black       ctermbg=white       cterm=NONE
 "hi Ignore        guifg=gray    guibg=#0a0a0a gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
@@ -107,7 +107,7 @@ endif
 
 " Syntax highlighting
 hi Comment        guifg=#7C7C7C guibg=NONE    gui=italic      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
-hi String         guifg=#A8FF60 guibg=NONE    gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
+hi String         guifg=#b2ff4f guibg=NONE    gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
 hi Number         guifg=#cf8688 guibg=NONE    gui=NONE      ctermfg=magenta     ctermbg=NONE        cterm=NONE
 
 hi Keyword        guifg=#96CBFE guibg=NONE    gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
