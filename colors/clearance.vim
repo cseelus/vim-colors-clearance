@@ -1,10 +1,10 @@
-" sleepwalker color scheme
+" clearance color scheme
 " by @cseelus and based on ir_black
-" https://github.com/cseelus/sleepwalker-vim
+" https://github.com/cseelus/vim-colors-clearance
 
 
 " ****************************************************************************
-" The colors of the sleepwalker-theme
+" The colors of the clearance-theme
 " x:x:x are RGB values
 "
 "  normal: #f6f3e8
@@ -62,7 +62,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "sleepwalker"
+let colors_name = "clearance"
 
 
 "hi Example       guifg=NONE    guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE        cterm=NONE
