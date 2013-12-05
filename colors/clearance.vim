@@ -1,48 +1,51 @@
+" ----------------------------------------------------------------------------
 " clearance color scheme
 " by @cseelus and based on ir_black
 " https://github.com/cseelus/vim-colors-clearance
+" ----------------------------------------------------------------------------
 
 
-" ****************************************************************************
 " The colors of the clearance-theme
-" x:x:x are RGB values
+" ----------------------------------------------------------------------------
 "
 "  normal: #f6f3e8
 "
-"  string:                             #b2ff4f  168:255:96
-"    string inner (punc, code, etc):   #00a0a0  0:160:160
-"    string Delimiter                  #4ba747  75:167:71
-"  number:                             #cf8688  207:134:136
-"  comments:                           #7c7c7c  124:124:124
-"  keywords:                           #96cbfe  150:203:254
+"  string:                             #b2ff4f
+"    string inner (punc, code, etc):   #00a0a0
+"    string Delimiter                  #4ba747
+"  number:                             #cf8688
+"  comments:                           #7c7c7c
+"  nontext:                            #4d4d4d
+"  keywords:                           #96cbfe
 "  operators:                          #fff
-"  class:                              #ffffb6  255:255:182
-"  method declaration name:            #ffd2a7  255:210:167
-"  regular expression:                 #e9c062  233:192:98
-"    regexp alternate:                 #ff8000  255:128:0
-"    regexp alternate 2:               #B18A3D  177:138:61
-"  variable:                           #c6c5fe  198:197:254
+"  class:                              #ffffb6
+"  method declaration name:            #ffd2a7
+"  regular expression:                 #e9c062
+"    regexp alternate:                 #ff8000
+"    regexp alternate 2:               #B18A3D
+"  variable:                           #c6c5fe
 "
 " Misc colors:
-"  red color:                          #ff6c60   255:108:96
-"     light red:                       #ffb6b0   255:182:176
+"  red color:                          #ff6c60
+"     light red:                       #ffb6b0
 "
-"  brown:                              #e18964   225:137:100
+"  brown:                              #e18964
 "
-"  light purple:                       #ffccff   255:204:255
+"  light purple:                       #ffccff
 "
 " Interface colors:
 "  background color:                   #000
-"  cursor (where underscore is used):  #ffa560  255:165:96
+"  cursor (where underscore is used):  #ffa560
 "  cursor (where block is used):       #fff
-"  visual selection:                   #e0d689  224:214:137
-"  current line:                       #0a0a0a  21:21:21
-"  search selection:                   #e0d689  224:214:137
-"  line number:                        #3d3d3d  61:61:61
+"  visual selection:                   #e0d689
+"  current line:                       #0a0a0a
+"  search selection:                   #e0d689
+"  line number:                        #3d3d3d
 
 
-" ****************************************************************************
 " The following are the preferred 16 colors for the terminal
+" ----------------------------------------------------------------------------
+"
 "               Colors      Bright Colors
 " Black         #4e4e4e     #7c7c7c
 " Red           #ff6c60     #ffb6b0
@@ -54,7 +57,6 @@
 " White         #eeeeee     #ffffff
 
 
-" ****************************************************************************
 set background=dark
 hi clear
 
@@ -64,8 +66,6 @@ endif
 
 let colors_name = "clearance"
 
-
-"hi Example       guifg=NONE    guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE        cterm=NONE
 
 " General colors
 hi Normal         guifg=#f6f3e8 guibg=#0a0a0a gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
@@ -176,19 +176,6 @@ hi link rubyClassVariable     Identifier
 hi link rubyConstant          Type
 
 
-" Special for Java
-" hi link javaClassDecl    Type
-hi link javaScopeDecl         Identifier
-hi link javaCommentTitle      javaDocSeeTag
-hi link javaDocTags           javaDocSeeTag
-hi link javaDocParam          javaDocSeeTag
-hi link javaDocSeeTagParam    javaDocSeeTag
-
-hi javaDocSeeTag              guifg=#CCCCCC     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
-hi javaDocSeeTag              guifg=#CCCCCC     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
-"hi javaClassDecl              guifg=#CCFFCC     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
-
-
 " Special for XML
 hi link xmlTag          Keyword
 hi link xmlTagName      Conditional
@@ -203,11 +190,3 @@ hi link htmlEndTag      Identifier
 
 " Special for Javascript
 hi link javaScriptNumber      Number
-
-
-" Special for Python
-"hi  link pythonEscape         Keyword
-
-
-" Special for CSharp
-hi  link csXmlTag             Keyword
