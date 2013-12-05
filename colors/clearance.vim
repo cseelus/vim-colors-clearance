@@ -69,7 +69,7 @@ let colors_name = "clearance"
 
 " General colors
 hi Normal         guifg=#f6f3e8 guibg=#0a0a0a gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi NonText        guifg=#7c7c7c guibg=#0a0a0a gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
+hi NonText        guifg=#4d4d4d guibg=#0a0a0a gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
 
 hi Cursor         guifg=black   guibg=white   gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
 hi LineNr         guifg=#4f4f4f guibg=#1d1d1d gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
