@@ -69,7 +69,7 @@ let colors_name = "clearance"
 
 " General colors
 hi Normal         guifg=#f6f3e8 guibg=#0a0a0a gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi NonText        guifg=#070707 guibg=#0a0a0a gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
+hi NonText        guifg=#7c7c7c guibg=#0a0a0a gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
 
 hi Cursor         guifg=black   guibg=white   gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
 hi LineNr         guifg=#4f4f4f guibg=#1d1d1d gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
@@ -107,7 +107,7 @@ if version >= 700 " Vim 7.x specific colors
 endif
 
 " Syntax highlighting
-hi Comment        guifg=#7C7C7C guibg=NONE    gui=italic      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
+hi Comment        guifg=#7c7c7c guibg=NONE    gui=italic      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
 hi String         guifg=#b2ff4f guibg=NONE    gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
 hi Number         guifg=#cf8688 guibg=NONE    gui=NONE      ctermfg=magenta     ctermbg=NONE        cterm=NONE
 
