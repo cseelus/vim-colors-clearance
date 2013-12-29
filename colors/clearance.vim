@@ -31,8 +31,6 @@
 "
 "  brown:                              #e18964
 "
-"  light purple:                       #ffccff
-"
 " Interface colors:
 "  background color:                   black
 "  cursor (where underscore is used):  #ffa560
@@ -54,7 +52,7 @@
 " Blue          #96cbfe     #ffffcb
 " Burgundy      #cf8688     #e0787d
 " Cyan          #c6c5fe     #dfdffe
-" White         #eeeeee     #ffffff
+" White         #cccccc     white
 
 
 set background=dark
@@ -94,7 +92,7 @@ hi ErrorMsg       guifg=white   guibg=#FF6C60 gui=BOLD      ctermfg=white       
 hi WarningMsg     guifg=white   guibg=#FF6C60 gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
 
 " Message displayed in lower left, such as --INSERT--
-hi ModeMsg        guifg=black   guibg=#C6C5FE gui=BOLD      ctermfg=black       ctermbg=cyan        cterm=BOLD
+hi ModeMsg        guifg=black   guibg=#cccccc gui=NONE      ctermfg=black        ctermbg=grey        cterm=NONE
 
 if version >= 700 " Vim 7.x specific colors
   hi CursorLine   guifg=#4f4f4f guibg=black   gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
@@ -118,7 +116,7 @@ hi Conditional    guifg=#6699CC guibg=NONE    gui=NONE      ctermfg=blue        
 hi Todo           guifg=#8f8f8f guibg=NONE    gui=NONE      ctermfg=red         ctermbg=NONE        cterm=NONE
 hi Constant       guifg=#99CC99 guibg=NONE    gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
 
-hi Identifier     guifg=#C6C5FE guibg=NONE    gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
+hi Identifier     guifg=#c6c5fe guibg=NONE    gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
 hi Function       guifg=#FFD2A7 guibg=NONE    gui=NONE      ctermfg=brown       ctermbg=NONE        cterm=NONE
 hi Type           guifg=#FFFFB6 guibg=NONE    gui=NONE      ctermfg=yellow      ctermbg=NONE        cterm=NONE
 hi Statement      guifg=#6699CC guibg=NONE    gui=NONE      ctermfg=lightblue   ctermbg=NONE        cterm=NONE
