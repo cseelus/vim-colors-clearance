@@ -78,7 +78,7 @@ hi StatusLineNC   guifg=#cccccc guibg=#111111 gui=NONE      ctermfg=blue        
 
 hi Folded         guifg=NONE    guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi FoldColumn     guifg=NONE    guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi Title          guifg=#f6f3e8 guibg=NONE    gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi Title          guifg=#f6f3e8 guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Visual         guifg=NONE    guibg=#e0d689 gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
 
 hi SpecialKey     guifg=#808080 guibg=#343434 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
@@ -88,17 +88,18 @@ hi PmenuSbar      guifg=black   guibg=white   gui=NONE      ctermfg=black       
 "hi Ignore        guifg=gray    guibg=black   gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 hi Error          guifg=NONE    guibg=NONE    gui=undercurl ctermfg=white       ctermbg=red         cterm=NONE     guisp=#FF6C60 " undercurl color
-hi ErrorMsg       guifg=white   guibg=#FF6C60 gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
-hi WarningMsg     guifg=white   guibg=#FF6C60 gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
+hi ErrorMsg       guifg=white   guibg=#FF6C60 gui=NONE      ctermfg=white       ctermbg=red         cterm=NONE
+hi WarningMsg     guifg=white   guibg=#FF6C60 gui=NONE      ctermfg=white       ctermbg=red         cterm=NONE
+hi Question       guifg=#b2ff4f guibg=NONE    gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
 
 " Message displayed in lower left, such as --INSERT--
 hi ModeMsg        guifg=black   guibg=#cccccc gui=NONE      ctermfg=black        ctermbg=grey        cterm=NONE
 
 if version >= 700 " Vim 7.x specific colors
-  hi CursorLine   guifg=#4f4f4f guibg=black   gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi CursorLineNR guifg=#4f4f4f guibg=black   gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
+  hi CursorLine   guifg=#4f4f4f guibg=black   gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
+  hi CursorLineNR guifg=#4f4f4f guibg=black   gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
+  hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
+  hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=NONE      ctermfg=white       ctermbg=darkgray    cterm=NONE
   hi Pmenu        guifg=#f6f3e8 guibg=#444444 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi PmenuSel     guifg=#000000 guibg=#cae682 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi Search       guifg=NONE    guibg=NONE    gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
