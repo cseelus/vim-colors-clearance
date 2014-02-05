@@ -11,8 +11,7 @@
 "  normal: #e6eef5
 "
 "  string:                             #c1f360
-"    string inner (punc, code, etc):   #00a0a0
-"    string Delimiter                  #4ba747
+"    string Delimiter                  #00a0a0
 "  number:                             #cf8688
 "  comments:                           #657380
 "  nontext:                            #3d4449
@@ -79,7 +78,7 @@ hi StatusLineNC   guifg=#b8c2cc guibg=#222324 gui=NONE      ctermfg=blue        
 hi Folded         guifg=NONE    guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi FoldColumn     guifg=NONE    guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Title          guifg=#e6eef5 guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi Visual         guifg=NONE    guibg=#e0d689 gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
+hi Visual         guifg=#151616 guibg=#ffffb6 gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
 
 hi SpecialKey     guifg=#808080 guibg=#343434 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
@@ -110,20 +109,20 @@ hi Comment        guifg=#657380 guibg=NONE    gui=italic      ctermfg=darkgray  
 hi String         guifg=#c1f360 guibg=#21271b gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
 hi Number         guifg=#cf8688 guibg=NONE    gui=NONE      ctermfg=magenta     ctermbg=NONE        cterm=NONE
 
-hi Keyword        guifg=#7dbffe guibg=NONE    gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
-hi PreProc        guifg=#7dbffe guibg=NONE    gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
-hi Conditional    guifg=#6d90d1 guibg=NONE    gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE  " if else end
+hi Keyword        guifg=#8fc4fd guibg=NONE    gui=bold      ctermfg=blue        ctermbg=NONE        cterm=NONE
+hi PreProc        guifg=#8fc4fd guibg=NONE    gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
+hi Conditional    guifg=#6d90d1 guibg=NONE    gui=bold      ctermfg=blue        ctermbg=NONE        cterm=NONE  " if else end
 
 hi Todo           guifg=#8f8f8f guibg=NONE    gui=NONE      ctermfg=red         ctermbg=NONE        cterm=NONE
 hi Constant       guifg=#b1f7e0 guibg=NONE    gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
 
 hi Identifier     guifg=#d3c4f7 guibg=NONE    gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
 hi Function       guifg=#FFD2A7 guibg=NONE    gui=NONE      ctermfg=brown       ctermbg=NONE        cterm=NONE
-hi Type           guifg=#FFFFB6 guibg=NONE    gui=NONE      ctermfg=yellow      ctermbg=NONE        cterm=NONE
+hi Type           guifg=#ffffb6 guibg=NONE    gui=NONE      ctermfg=yellow      ctermbg=NONE        cterm=NONE
 hi Statement      guifg=#6d90d1 guibg=NONE    gui=NONE      ctermfg=lightblue   ctermbg=NONE        cterm=NONE
 
 hi Special        guifg=#eb7a4b guibg=NONE    gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
-hi Delimiter      guifg=#00A0A0 guibg=NONE    gui=NONE   ctermfg=cyan        ctermbg=NONE        cterm=NONE
+hi Delimiter      guifg=#00a0a0 guibg=NONE    gui=NONE   ctermfg=cyan        ctermbg=NONE        cterm=NONE
 hi Operator       guifg=white   guibg=NONE    gui=NONE   ctermfg=white ctermbg=NONE        cterm=NONE
 
 hi link Character       Constant
@@ -171,15 +170,15 @@ hi link rubyConstant          Type
 
 
 " Special for XML
-hi link xmlTag          Keyword
-hi link xmlTagName      Conditional
-hi link xmlEndTag       Identifier
+hi link xmlTag                Keyword
+hi link xmlTagName            Conditional
+hi link xmlEndTag             Identifier
 
 
 " Special for HTML
-hi link htmlTag         Keyword
-hi link htmlTagName     Conditional
-hi link htmlEndTag      Identifier
+hi link htmlTag               Normal
+hi link htmlTagName           Keyword
+hi link htmlEndTag            Identifier
 
 
 " Special for Javascript
