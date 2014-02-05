@@ -183,3 +183,14 @@ hi link htmlEndTag            Identifier
 
 " Special for Javascript
 hi link javaScriptNumber      Number
+
+" Special for CSS
+hi link cssBraces			        Normal
+hi link cssTagName		        Keyword
+hi link StorageClass	        Normal
+hi link cssClassName	        Type
+hi link cssIdentifier	        Identifier
+hi link cssColor			        Constant
+hi link cssValueInteger	    	Number
+hi link cssValueNumber	    	Number
+hi link cssValueLength	    	Number
