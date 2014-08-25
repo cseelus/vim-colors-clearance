@@ -35,7 +35,7 @@
 "  cursor (where underscore is used):  #ffa560
 "  cursor (where block is used):       #b8c2cc
 "  visual selection:                   #e0d689
-"  current line:                       black  
+"  current line:                       black
 "  search selection:                   #e0d689
 "  line number:                        #484e52
 
@@ -46,7 +46,7 @@
 "               Colors      Bright Colors
 " Black         #4e4e4e     #657380
 " Red           #ff6c60     #ffb6b0
-" Green         #c1f360     #ceffab 
+" Green         #c1f360     #ceffab
 " Yellow        #ffffb6     #ffffcb
 " Blue          #7dbffe     #bddbf7
 " Burgundy      #cf8688     #e0787d
@@ -95,7 +95,7 @@ hi Question       guifg=#c1f360 guibg=NONE    gui=NONE      ctermfg=green       
 hi ModeMsg        guifg=black   guibg=#b8c2cc gui=NONE      ctermfg=black        ctermbg=grey        cterm=NONE
 
 if version >= 700 " Vim 7.x specific colors
-  hi CursorLine   guifg=#e6eef5 guibg=#222324 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
+  hi CursorLine                 guibg=#222324 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
   hi CursorLineNR guifg=#484e52 guibg=#151616 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
   hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
   hi MatchParen   guifg=#151616 guibg=#7dbffe gui=NONE      ctermfg=white       ctermbg=darkgray    cterm=NONE
