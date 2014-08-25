@@ -65,20 +65,20 @@ let colors_name = "clearance"
 
 
 " General colors
-hi Normal         guifg=#e6eef5 guibg=#151616  gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi Normal         guifg=#e6eef5 guibg=#111111  gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi NonText        guifg=#3d4449 guibg=NONE      gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
 
-hi Cursor         guifg=#151616guibg=#b8c2cc gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
-hi LineNr         guifg=#484e52 guibg=#151616  gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
+hi Cursor         guifg=#111111guibg=#b8c2cc gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
+hi LineNr         guifg=#484e52 guibg=#111111  gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
 
-hi VertSplit      guifg=#202020 guibg=#151616  gui=NONE      ctermfg=darkgray    ctermbg=darkgray    cterm=NONE
+hi VertSplit      guifg=#202020 guibg=#111111  gui=NONE      ctermfg=darkgray    ctermbg=darkgray    cterm=NONE
 hi StatusLine     guifg=#b8c2cc guibg=#222324 gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 hi StatusLineNC   guifg=#b8c2cc guibg=#222324 gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
 
 hi Folded         guifg=NONE    guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi FoldColumn     guifg=NONE    guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Title          guifg=#e6eef5 guibg=NONE    gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi Visual         guifg=#151616 guibg=#ffffb6 gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
+hi Visual         guifg=#111111 guibg=#ffffb6 gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
 
 hi SpecialKey     guifg=#808080 guibg=#343434 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
@@ -96,11 +96,11 @@ hi ModeMsg        guifg=black   guibg=#b8c2cc gui=NONE      ctermfg=black       
 
 if version >= 700 " Vim 7.x specific colors
   hi CursorLine                 guibg=#222324 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
-  hi CursorLineNR guifg=#484e52 guibg=#151616 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
+  hi CursorLineNR guifg=#484e52 guibg=#111111 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
   hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
-  hi MatchParen   guifg=#151616 guibg=#7dbffe gui=NONE      ctermfg=white       ctermbg=darkgray    cterm=NONE
+  hi MatchParen   guifg=#111111 guibg=#7dbffe gui=NONE      ctermfg=white       ctermbg=darkgray    cterm=NONE
   hi Pmenu        guifg=#e6eef5 guibg=#2e3132 gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-  hi PmenuSel     guifg=#151616 guibg=#7dbffe gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+  hi PmenuSel     guifg=#111111 guibg=#7dbffe gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi Search       guifg=NONE    guibg=NONE    gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
 endif
 
