@@ -47,35 +47,29 @@ let colors_name = "clearance"
 " Interface
 hi Normal         guifg=#e6eef5    guibg=#151616    gui=NONE
 hi NonText        guifg=#3d4449    guibg=NONE       gui=NONE
-
 hi Cursor         guifg=#151616    guibg=#b8c2cc    gui=NONE
 hi LineNr         guifg=#484e52    guibg=#151616    gui=NONE
-
 hi VertSplit      guifg=#202020    guibg=#151616    gui=NONE
 hi StatusLine     guifg=#b8c2cc    guibg=#222324    gui=NONE
 hi StatusLineNC   guifg=#b8c2cc    guibg=#222324    gui=NONE
-
 hi Folded         guifg=NONE       guibg=NONE       gui=NONE
 hi FoldColumn     guifg=NONE       guibg=NONE       gui=NONE
 hi Title          guifg=#e6eef5    guibg=NONE       gui=NONE
 hi Visual         guifg=#151616    guibg=#ffffb6    gui=NONE
-
 hi SpecialKey     guifg=#808080    guibg=#343434    gui=NONE
-
-hi WildMenu       guifg=#c1f360      guibg=yellow   gui=NONE
+hi WildMenu       guifg=#c1f360    guibg=yellow   gui=NONE
 hi PmenuSbar      guifg=black      guibg=white      gui=NONE
 "hi Ignore        guifg=gray       guibg=black      gui=NONE
-
 hi Error          guifg=NONE       guibg=NONE       gui=undercurl
 hi ErrorMsg       guifg=white      guibg=#ff6c60    gui=NONE
 hi WarningMsg     guifg=white      guibg=#ff6c60    gui=NONE
 hi Question       guifg=#c1f360    guibg=NONE       gui=NONE
-
 " --INSERT-- etc.
 hi ModeMsg        guifg=black      guibg=#b8c2cc    gui=NONE
 
-if version >= 700 " Vim 7.x specific colors
-  hi CursorLine   guifg=#e6eef5    guibg=#222324    gui=NONE
+" Vim 7.x specific colors
+if version >= 700
+  hi CursorLine                    guibg=#222324    gui=NONE
   hi CursorLineNR guifg=#484e52    guibg=#151616    gui=NONE
   hi CursorColumn guifg=NONE       guibg=#121212    gui=NONE
   hi MatchParen   guifg=#151616    guibg=#7dbffe    gui=NONE
