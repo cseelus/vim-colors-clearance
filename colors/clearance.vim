@@ -117,40 +117,44 @@ hi link SpecialChar                Special
 hi link SpecialComment             Special
 hi link Debug                      Special
 
+" HTML
+hi link htmlTag                   Normal
+hi link htmlTagName               Keyword
+hi link htmlEndTag                Identifier
+
+" Javascript
+hi link javaScriptNumber          Number
+
+" CSS
+hi link cssBraces			            Normal
+hi link cssTagName		            Keyword
+hi link StorageClass	            Normal
+hi link cssClassName	            Type
+hi link cssIdentifier	            Identifier
+hi link cssColor			            Constant
+hi link cssValueInteger           Number
+hi link cssValueNumber            Number
+hi link cssValueLength            Number
+"
 " Ruby
 hi link rubyRegexpDelimiter       Special
 hi link rubyInterpolationDelimiter Delimiter
-hi link rubyStringDelimiter        Delimiter
-hi link rubyClass                  Keyword
-hi link rubyModule                 Keyword
-hi link rubyKeyword                Keyword
-hi link rubyOperator               Operator
-hi link rubyIdentifier             Identifier
-hi link rubyInstanceVariable       Identifier
-hi link rubyGlobalVariable         Identifier
-hi link rubyClassVariable          Identifier
-hi link rubyConstant               Type
+hi link rubyStringDelimiter       Delimiter
+hi link rubyClass                 Keyword
+hi link rubyModule                Keyword
+hi link rubyKeyword               Keyword
+hi link rubyOperator              Operator
+hi link rubyIdentifier            Identifier
+hi link rubyInstanceVariable      Identifier
+hi link rubyGlobalVariable        Identifier
+hi link rubyClassVariable         Identifier
+hi link rubyConstant              Type
+
+" Slim
+hi link           slimBegin             Normal
+hi link           slimRubyOutputChar    Identifier
 
 " XML
-hi link xmlTag                     Keyword
-hi link xmlTagName                 Conditional
-hi link xmlEndTag                  Identifier
-
-" HTML
-hi link htmlTag                    Normal
-hi link htmlTagName                Keyword
-hi link htmlEndTag                 Identifier
-
-" Javascript
-hi link javaScriptNumber           Number
-
-" CSS
-hi link cssBraces			             Normal
-hi link cssTagName		             Keyword
-hi link StorageClass	             Normal
-hi link cssClassName	             Type
-hi link cssIdentifier	             Identifier
-hi link cssColor			             Constant
-hi link cssValueInteger            Number
-hi link cssValueNumber             Number
-hi link cssValueLength             Number
+hi link xmlTag                    Keyword
+hi link xmlTagName                Conditional
+hi link xmlEndTag                 Identifier
