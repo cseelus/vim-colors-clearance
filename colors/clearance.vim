@@ -80,7 +80,7 @@ endif
 
 " Syntax highlighting
 hi Comment        guifg=#657380    guibg=NONE       gui=italic
-hi String         guifg=#c1f360    guibg=#21271b    gui=NONE
+hi String         guifg=#c1f360    guibg=NONE       gui=NONE
 hi Number         guifg=#cf8688    guibg=NONE       gui=NONE
 
 hi Keyword        guifg=#8fc4fd    guibg=NONE       gui=bold
@@ -97,7 +97,7 @@ hi Statement      guifg=#6d90d1    guibg=NONE       gui=NONE
 
 hi Special        guifg=#eb7a4b    guibg=NONE       gui=NONE
 hi Delimiter      guifg=#00a0a0    guibg=NONE       gui=NONE
-hi Operator       guifg=#ffffff    guibg=NONE       gui=NONE
+hi link Operator                   Normal
 
 hi link Character                  Constant
 hi link Boolean                    Constant
@@ -118,43 +118,47 @@ hi link SpecialComment             Special
 hi link Debug                      Special
 
 " HTML
-hi link htmlTag                   Normal
-hi link htmlTagName               Keyword
-hi link htmlEndTag                Identifier
+hi link htmlTag                    Normal
+hi link htmlTagName                Keyword
+hi link htmlEndTag                 Identifier
 
 " Javascript
-hi link javaScriptNumber          Number
+hi link javaScriptNumber           Number
 
 " CSS
-hi link cssBraces			            Normal
-hi link cssTagName		            Keyword
-hi link StorageClass	            Normal
-hi link cssClassName	            Type
-hi link cssIdentifier	            Identifier
-hi link cssColor			            Constant
-hi link cssValueInteger           Number
-hi link cssValueNumber            Number
-hi link cssValueLength            Number
+hi link cssBraces                  Normal
+hi link cssTagName                 Keyword
+hi link StorageClass               Normal
+hi link cssClassName               Type
+hi link cssIdentifier              Identifier
+hi link cssColor                   Constant
+hi link cssValueInteger            Number
+hi link cssValueNumber             Number
+hi link cssValueLength             Number
 "
 " Ruby
-hi link rubyRegexpDelimiter       Special
+hi link rubyRegexpDelimiter        Special
 hi link rubyInterpolationDelimiter Delimiter
-hi link rubyStringDelimiter       Delimiter
-hi link rubyClass                 Keyword
-hi link rubyModule                Keyword
-hi link rubyKeyword               Keyword
-hi link rubyOperator              Operator
-hi link rubyIdentifier            Identifier
-hi link rubyInstanceVariable      Identifier
-hi link rubyGlobalVariable        Identifier
-hi link rubyClassVariable         Identifier
-hi link rubyConstant              Type
+hi link rubyStringDelimiter        Delimiter
+hi link rubyClass                  Keyword
+hi link rubyModule                 Keyword
+hi link rubyKeyword                Keyword
+hi link rubyOperator               Operator
+hi link rubyIdentifier             Identifier
+hi link rubyInstanceVariable       Identifier
+hi link rubyGlobalVariable         Identifier
+hi link rubyClassVariable          Identifier
+hi link rubyConstant               Type
+
+" Sass
+hi link sassClassChar              Normal
+hi link sassId                     Identifier
 
 " Slim
-hi link           slimBegin             Normal
-hi link           slimRubyOutputChar    Identifier
+hi link slimBegin                  Normal
+hi link slimRubyOutputChar         Identifier
 
 " XML
-hi link xmlTag                    Keyword
-hi link xmlTagName                Conditional
-hi link xmlEndTag                 Identifier
+hi link xmlTag                     Keyword
+hi link xmlTagName                 Conditional
+hi link xmlEndTag                  Identifier
