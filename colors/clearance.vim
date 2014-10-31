@@ -54,7 +54,7 @@ hi StatusLine     guifg=#b8c2cc    guibg=#222324    gui=NONE
 hi StatusLineNC   guifg=#b8c2cc    guibg=#222324    gui=NONE
 hi Folded         guifg=NONE       guibg=NONE       gui=NONE
 hi FoldColumn     guifg=NONE       guibg=NONE       gui=NONE
-hi Title          guifg=#e6eef5    guibg=NONE       gui=NONE
+hi Title          guifg=#ffffb6    guibg=NONE       gui=bold
 hi Visual         guifg=#151616    guibg=#ffffb6    gui=NONE
 hi SpecialKey     guifg=#808080    guibg=#343434    gui=NONE
 hi WildMenu       guifg=#c1f360    guibg=yellow   gui=NONE
