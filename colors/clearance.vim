@@ -46,7 +46,7 @@ let colors_name = "clearance"
 
 " Interface
 hi Normal         guifg=#e6eef5    guibg=#151616    gui=NONE
-hi NonText        guifg=#3d4449    guibg=NONE       gui=NONE
+hi NonText        guifg=#657380    guibg=NONE       gui=NONE
 hi Cursor         guifg=#151616    guibg=#b8c2cc    gui=NONE
 hi LineNr         guifg=#484e52    guibg=#151616    gui=NONE
 hi VertSplit      guifg=#202020    guibg=#151616    gui=NONE
