@@ -117,11 +117,6 @@ hi link SpecialChar                Special
 hi link SpecialComment             Special
 hi link Debug                      Special
 
-" HTML
-hi link htmlTag                    Normal
-hi link htmlTagName                Keyword
-hi link htmlEndTag                 Identifier
-
 " Javascript
 hi link javaScriptNumber           Number
 
@@ -135,6 +130,12 @@ hi link cssColor                   Constant
 hi link cssValueInteger            Number
 hi link cssValueNumber             Number
 hi link cssValueLength             Number
+
+" HTML
+hi link htmlTag                    Statement
+hi link htmlTagName                Keyword
+hi link htmlEndTag                 Statement
+hi link htmlString                 String
 "
 " Ruby
 hi link rubyRegexpDelimiter        Special
@@ -159,6 +160,6 @@ hi link slimBegin                  Normal
 hi link slimRubyOutputChar         Identifier
 
 " XML
-hi link xmlTag                     Keyword
-hi link xmlTagName                 Conditional
-hi link xmlEndTag                  Identifier
+hi link xmlTag                     Statement
+hi link xmlTagName                 Statement
+hi link xmlEndTag                  Statement
