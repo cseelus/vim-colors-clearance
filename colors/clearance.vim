@@ -27,11 +27,10 @@
 "  brown:                              #e18964
 "
 " Interface colors:
-"  background color:                   black
+"  background color:                   #151515
 "  cursor (where underscore is used):  #ffa560
 "  cursor (where block is used):       #b8c2cc
 "  visual selection:                   #e0d689
-"  current line:                       black
 "  search selection:                   #e0d689
 "  line number:                        #484e52
 
@@ -46,7 +45,7 @@ let colors_name = "clearance"
 
 " Interface
 hi Normal         guifg=#e6eef5    guibg=#151616    gui=NONE
-hi NonText        guifg=#657380    guibg=NONE       gui=NONE
+hi NonText        guifg=#484e52    guibg=NONE       gui=NONE
 hi Cursor         guifg=#151616    guibg=#b8c2cc    gui=NONE
 hi LineNr         guifg=#484e52    guibg=#151616    gui=NONE
 hi VertSplit      guifg=#202020    guibg=#151616    gui=NONE
@@ -56,8 +55,8 @@ hi Folded         guifg=NONE       guibg=NONE       gui=NONE
 hi FoldColumn     guifg=NONE       guibg=NONE       gui=NONE
 hi Title          guifg=#ffffb6    guibg=NONE       gui=bold
 hi Visual         guifg=#151616    guibg=#ffffb6    gui=NONE
-hi SpecialKey     guifg=#808080    guibg=#343434    gui=NONE
-hi WildMenu       guifg=#c1f360    guibg=yellow   gui=NONE
+hi SpecialKey     guifg=#484e52    guibg=#151515    gui=NONE
+hi WildMenu       guifg=#c1f360    guibg=yellow     gui=NONE
 hi PmenuSbar      guifg=black      guibg=white      gui=NONE
 "hi Ignore        guifg=gray       guibg=black      gui=NONE
 hi Error          guifg=NONE       guibg=NONE       gui=undercurl
