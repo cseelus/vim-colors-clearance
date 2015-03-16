@@ -55,6 +55,7 @@ hi Folded         guifg=NONE       guibg=NONE       gui=NONE
 hi FoldColumn     guifg=NONE       guibg=NONE       gui=NONE
 hi Title          guifg=#ffffb6    guibg=NONE       gui=bold
 hi Visual         guifg=#151616    guibg=#ffffb6    gui=NONE
+hi SignColumn     guifg=NONE       guibg=#151616    gui=NONE
 hi SpecialKey     guifg=#484e52    guibg=#151515    gui=NONE
 hi WildMenu       guifg=#c1f360    guibg=yellow     gui=NONE
 hi PmenuSbar      guifg=black      guibg=white      gui=NONE
@@ -90,7 +91,7 @@ hi Todo           guifg=#8f8f8f    guibg=NONE       gui=NONE
 hi Constant       guifg=#b1f7e0    guibg=NONE       gui=NONE
 
 hi Identifier     guifg=#d3c4f7    guibg=NONE       gui=NONE
-hi Function       guifg=#FFD2A7    guibg=NONE       gui=NONE
+hi Function       guifg=#ffd2a7    guibg=NONE       gui=NONE
 hi Type           guifg=#ffffb6    guibg=NONE       gui=NONE
 hi Statement      guifg=#6d90d1    guibg=NONE       gui=NONE
 
@@ -130,12 +131,22 @@ hi link cssValueInteger            Number
 hi link cssValueNumber             Number
 hi link cssValueLength             Number
 
+" GitGutter
+hi link GitGutterAdd          String
+hi link GitGutterChange       Function
+hi link GitGutterDelete       Identifier
+hi link GitGutterChangeDelete Constant
+
 " HTML
 hi link htmlTag                    Statement
 hi link htmlTagName                Keyword
 hi link htmlEndTag                 Statement
 hi link htmlString                 String
-"
+
+" Nerdtree
+hi link nerdTreeDir               PreProc
+hi link nerdTreeOpenable          PreProc
+
 " Ruby
 hi link rubyRegexpDelimiter        Special
 hi link rubyInterpolationDelimiter Delimiter
